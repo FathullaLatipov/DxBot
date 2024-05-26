@@ -125,7 +125,7 @@ section {
 }
 
 .btn-regular {
-	background-color: #0095f7;
+	background-color: #3699da;
 	color: #ffffff;
 	padding: 10px 25px;
 	letter-spacing: .1em;
@@ -156,7 +156,7 @@ section {
 
 .btn-demo-small {
 	font-size: 16px;
-	background-color: #0095f7;
+	background-color: #3699da;
 	padding: 1px 4px;
 }
 
@@ -170,7 +170,7 @@ section {
 
 .btn-buy {
 	color: #ffffff;
-	background-color: #0095f7;
+	background-color: #3699da;
 	letter-spacing: .1em;
 	padding: 15px 48px;
 	display: inline-block;
@@ -672,14 +672,14 @@ footer small {
   .accordion button:hover,
   .accordion button:focus {
 	cursor: pointer;
-	color: #0095f7;
+	color: #3699da;
   }
   
   .accordion button:hover::after,
   .accordion button:focus::after {
 	cursor: pointer;
-	color: #0095f7;
-	border: 1px solid #0095f7;
+	color: #3699da;
+	border: 1px solid #3699da;
   }
   
   .accordion button .accordion-title {
