@@ -55,6 +55,14 @@
       .btn.btn-regular.rounded-btn {
           border-radius: 12px !important;
       }
+      @media (max-width: 767px) {
+      .btn-centered {
+        display: block;
+        margin: 10px auto; /* Центрирование и отступы сверху и снизу */
+        padding: 10px 20px;
+        width: 80%; /* Ширина кнопки на мобильных устройствах */
+      }
+    }
   </style>
 
   <!-- N A V B A R -->
@@ -78,7 +86,7 @@
             <a class="nav-link" href="#marketing">Мои боты <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
           <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="#testimonials">FAQ <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+            <a class="nav-link" href="#faq">FAQ <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
           <li class="nav-item nav-custom-link" id="COM">
             <a class="nav-links" href="https://t.me/DxBot_News" style="text-decoration: none;">Комьюнити <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
@@ -101,9 +109,9 @@
         </div>
         <div class="col-md-7 content-box hero-content">
           <p style="color:#000; font-size: 24px !important;"><b>DxBot.ru</b> - <b>это ваш ключ к миру Telegram-ботов</b></p>
-          <p>Простой и эффективный сервис для создания ботов, который упрощает и стандартизирует процессы программирования, помогая вам добиться значительных результатов с минимальными усилиями.
+          <p style="color:#000;padding-top: 24px;">Простой и эффективный сервис для создания ботов, который упрощает и стандартизирует процессы программирования, помогая вам добиться значительных результатов с минимальными усилиями.
           </p>
-          <a href="#" class="btn btn-regular" style="font-size: 18px; border-radius: 12px;">Подробнее</a>
+          <a href="#" class="btn btn-regular btn-centered" style="font-size: 18px; border-radius: 12px;">Регистрация</a>
         </div>
       </div>
     </div>
@@ -118,7 +126,6 @@
           <div class="content-box">
             <h2>Продвижение и рост аудитории </h2>
             <p>Встроенная реферальная система во всех ботах нашего сервиса гарантирует быстрый и эффективный рост аудитории, что обеспечивает вас заработком уже с первого пользователя</p>
-            <a href="#" class="btn btn-regular" style="font-size: 18px;">Получить</a>
           </div>
         </div>
         <div class="col-md-7">
@@ -194,7 +201,7 @@
               <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
             </ul> -->
             <div class="text-center">
-              <a href="#" class="btn btn-buy">Получить</a>
+              <a href="#" class="btn btn-buy">Создать ⚙️</a>
             </div>
           </div>
         </div>
@@ -214,7 +221,7 @@
               <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
             </ul> -->
             <div class="text-center">
-              <a href="#" class="btn btn-buy">Получить</a>
+              <a href="#" class="btn btn-buy">Создать ⚙️</a>
             </div>
           </div>
         </div>
@@ -234,7 +241,7 @@
               <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
             </ul> -->
             <div class="text-center">
-              <a href="#" class="btn btn-buy">Получить</a>
+              <a href="#" class="btn btn-buy">Создать ⚙️</a>
             </div>
           </div>
         </div>
@@ -260,7 +267,7 @@
               <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
             </ul> -->
             <div class="text-center">
-              <a href="#" class="btn btn-buy">Получить</a>
+              <a href="#" class="btn btn-buy">Создать ⚙️</a>
             </div>
           </div>
         </div>
@@ -280,7 +287,7 @@
               <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
             </ul> -->
             <div class="text-center">
-              <a href="#" class="btn btn-buy">Получить</a>
+              <a href="#" class="btn btn-buy">Создать ⚙️</a>
             </div>
           </div>
         </div>
@@ -294,19 +301,24 @@
   <section id="call-to-action">
     <div class="container text-center">
       <h2>Increase your conversion rates now</h2>
-      <div class="title-block">
+      <div class="title-block"  >
         <p>Learn how to increase both your online and offline conversion rates and boost your sales and profits.</p>
         <a href="#" class="btn btn-regular">Get Started</a>
       </div>
-    </div>
+    </div >
   </section>
   <!-- E N D  C A L L  T O  A C T I O N -->
 
 <!-- FAQ -->
+<div id="faq">
+  <br>
+</div>
 <br>
-<div class="container" id="testimonials" style="padding: 50px;">
+<br>
+<br>
+<div class="container" id="testimonials"  style="padding: 30px">
   <h2>FAQ</h2>
-  <div class="accordion">
+  <div class="accordion" >
     <div class="accordion-item">
       <button id="accordion-button-1" aria-expanded="false">
         <span class="accordion-title">Чем занимается DxBot.ru?</span>
