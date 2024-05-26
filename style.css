@@ -131,6 +131,7 @@ section {
 	letter-spacing: .1em;
 	margin-top: 25px;
 	display: inline-block;
+	border-radius:25px !important;
 }
 
 .btn-regular:hover {
@@ -175,6 +176,7 @@ section {
 	display: inline-block;
 	width: 100%;
 	margin-top: 20px;
+	border-radius: 20px !important;
 }
 
 .btn-buy:hover {
@@ -724,7 +726,7 @@ footer small {
   }
   .accordion button[aria-expanded='true'] + .accordion-content {
 	opacity: 1;
-	max-height: 9em;
+	max-height: 28em;
 	transition: all 200ms linear;
 	will-change: opacity, max-height;
   }
